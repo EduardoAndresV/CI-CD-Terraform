@@ -9,7 +9,7 @@ env:
   PROJECT_ID: mi-app-node-prod
   REGION: us-central1
   SERVICE_NAME: mi-app-node-tf
-  GAR_REPOSITORY: app-repo-tf
+  GAR_REPOSITORY: mi-app-node-tf
 
 jobs:
   build-and-deploy:

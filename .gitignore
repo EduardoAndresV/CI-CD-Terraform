@@ -3,6 +3,8 @@ node_modules/
 
 # Terraform temporary & state files (Ignorar en cualquier nivel)
 .terraform/
+.terraform.lock.hcl
+terraform/.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
 crash.log
