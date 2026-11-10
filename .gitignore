@@ -1,0 +1,13 @@
+node_modules/# Node dependencies
+node_modules/
+
+# Terraform temporary files
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/crash.log
+terraform/*.tfvars
+
+# OS generated files
+.DS_Store
+Thumbs.db
