@@ -16,7 +16,7 @@ provider "google" {
 # Crear únicamente el repositorio de Artifact Registry de forma fija
 resource "google_artifact_registry_repository" "docker_repo" {
   location      = var.region
-  repository_id = "app-repo-tf"
+  repository_id = var.repository_name
   description   = "Repositorio Docker de Artifact Registry creado con Terraform"
   format        = "DOCKER"
 }

@@ -10,8 +10,8 @@ variable "region" {
   default     = "us-central1"
 }
 
-variable "service_name" {
-  description = "Nombre del servicio en Cloud Run"
+variable "repository_name" {
+  description = "Nombre del repositorio en Artifact Registry para almacenar las imágenes Docker"
   type        = string
   default     = "mi-app-node-tf"
 }

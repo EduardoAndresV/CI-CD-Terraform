@@ -1,12 +1,12 @@
 node_modules/# Node dependencies
 node_modules/
 
-# Terraform temporary files
-terraform/.terraform/
-terraform/*.tfstate
-terraform/*.tfstate.*
-terraform/crash.log
-terraform/*.tfvars
+# Terraform temporary & state files (Ignorar en cualquier nivel)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
 
 # OS generated files
 .DS_Store
